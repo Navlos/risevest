@@ -9,6 +9,8 @@
   --clr-primary-200: #866DC5;
   --clr-primary-300: #E6F5F6;
 
+
+
   --clr-neutral-100: #FFFFFF;
   --clr-neutral-200: #2D2D2D;
 
@@ -303,7 +305,7 @@ i{
  .blue-btn{
   margin: 10% 0;
   background-color: #A0DDE2;
-  padding:.5em 3em;
+  padding:1em 3em;
   outline: none;
   border: none;
  }
@@ -581,11 +583,9 @@ border-radius:10px ;
  }
 
  @media(min-width:48em){
-  /* .testimonial-section{
-    width: 90%;
-    margin: auto; */
   
-  }
+  
+  
  }
 
  .flex-lay{
@@ -593,4 +593,48 @@ border-radius:10px ;
   display: flex;
   gap:1.5em;
   
+ }
+
+ .download-div{
+  width: 100%;
+  margin: auto;
+  padding: 2em;
+  background-color: var(--clr-primary-300);
+  margin-bottom: 15%;
+
+ }
+
+ .download-flex{
+ 
+  
+  display: flex;
+  
+  
+  
+  
+  
+ }
+
+ 
+ .download-div .text{
+  
+  flex-basis: 70%;
+ }
+
+
+ .download-div .image-container img{
+  width: 70%;
+  
+  height: auto;
+  
+ }
+
+ @media(max-width:47em){
+  .footer-area{
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    margin: 5% 0;
+  }
  }
